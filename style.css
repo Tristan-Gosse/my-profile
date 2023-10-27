@@ -1,0 +1,90 @@
+ body {
+ 	background-color: #F1DEC9;
+ 	color : black;
+ 	font-family: Arial,;
+
+ }
+
+ h1{
+ 	font-family: 'Ubuntu', sans-serif;
+ 	text-align: center;
+ 	color:brown;
+ 	font-weight: 700;
+ }
+
+ h2 {
+ 	text-align: center;
+ 	color: #733C3C;
+ 	font-family: Arial, serif;
+ 	font-weight: 800;
+ }
+
+ p{
+ 	text-align: center;
+ 	font-family: 'Gabarito', sans-serif;
+ 	color:#8D7B68;
+ 	font-weight: 700;
+ }
+
+ ul {
+ 	display: block;
+ 	margin-left: 480px;
+ }
+
+ #profile{
+ 	display: block;
+ 	width:500;
+ 	margin: auto;
+ 	border-radius: 50%;
+ }
+
+ a{
+ 	text-decoration: none;
+ 	color:brown;
+ 	font-family: 'Gabarito', sans-serif;
+ }
+
+ a:hover{
+ 	color:#cc6300;
+ }
+
+.center-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+
+.First-part{
+	display: block;
+	margin-left: 300px;
+	margin-right: 300px;
+	border: 1px solid #8D7B68;
+	box-shadow: 2px 2px 3px #8D7B68;
+	border-radius: 10%;
+}
+
+.list-inline li{
+	display: inline;
+	font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
